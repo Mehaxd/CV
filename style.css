@@ -1,0 +1,80 @@
+body {
+  font-family: Sans-serif;
+  background-color: rgb(185, 192, 190);
+  padding: 40px 0px;
+}
+
+span {
+  font-family: Cursive;
+  color: rgb(77, 51, 138);
+}
+
+header li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+section,
+header {
+  padding: 10px 60px 20px 60px;
+  background-color: rgb(197, 195, 195);
+  width: 960px;
+  margin: auto;
+}
+
+.icon-adress {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  margin-right: 5px;
+  padding: 1px;
+  vertical-align: middle;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.img {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 960px;
+  margin: auto;
+}
+
+/* 🔽 Nowe style do ustawienia danych kontaktowych obok siebie */
+header address ul {
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+ margin-left: 40px;
+}
+
+header address li {
+  display: flex;
+  align-items: center;
+}
+
+.link-download{
+    border: 2px solid red;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 26px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    transition: background-color 0.5s;
+}
+.link-download:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(83, 81, 81);
+
+.link-download:active{
+text-decoration: underline;
+}
